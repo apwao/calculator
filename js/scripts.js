@@ -22,3 +22,11 @@ let number5 = parseInt(prompt("Enter a number:"));
 let number7 = parseInt(prompt("Enter another number:"));
 let resultd  = divide(number5,number7);
 alert(resultd);
+//Multiplication function
+let multiply = function (number8, number9){
+return number8 * number9;
+};
+let number8 = prompt("Enter a number:");
+let number9 = prompt("Enter another number:");
+let resultm = multiply(number8, number9);
+alert(resultm);
